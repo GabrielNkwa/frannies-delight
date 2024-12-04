@@ -24,22 +24,24 @@ export default function LandingPage() {
           <nav>
             <ul className="flex space-x-6">
               <li>
-                <a href="#" className="text-[#8C3503] hover:text-[#D95204]">
+                <a href="/" className="text-[#8C3503] hover:text-[#D95204]">
                   Home
                 </a>
               </li>
+
               <li>
-                <a href="#" className="text-[#8C3503] hover:text-[#D95204]">
-                  Menu
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-[#8C3503] hover:text-[#D95204]">
+                <a
+                  href="#about"
+                  className="text-[#8C3503] hover:text-[#D95204]"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[#8C3503] hover:text-[#D95204]">
+                <a
+                  href="#contact"
+                  className="text-[#8C3503] hover:text-[#D95204]"
+                >
                   Contact
                 </a>
               </li>
@@ -52,14 +54,14 @@ export default function LandingPage() {
         <section className="py-20">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold text-[#8C3503] mb-6">
-              Indulge in Sweet Perfection
+              Yummy Treats Only 😋
             </h1>
             <p className="text-xl text-[#594A42] mb-8">
               Discover our handcrafted pastries and delightful treats
             </p>
-            <Button className="bg-[#D95204] hover:bg-[#8C3503] text-white">
+            {/* <Button className="bg-[#D95204] hover:bg-[#8C3503] text-white">
               View Our Menu
-            </Button>
+            </Button> */}
           </div>
         </section>
 
@@ -72,63 +74,63 @@ export default function LandingPage() {
               {[
                 {
                   name: 'Chin Chin',
-                  price: '$3.99',
+                  price: '',
                   image: '/images/chinchin.jpg',
                 },
                 {
                   name: 'Samosa',
-                  price: '$4.50',
+                  price: '',
                   image: '/images/samosa2.jpg',
                 },
                 {
                   name: 'Spring Rolls',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/springroll.jpg',
                 },
                 {
                   name: 'Corn Dogs',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/corn-dogs2.jpg',
                 },
                 {
                   name: 'Milky Puffs',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/milky-puffs2.jpg',
                 },
                 {
                   name: 'Spicy Chicken',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/spicy-chicken.jpg',
                 },
                 {
                   name: 'Spicy meat',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/Spicy-meat.jpg',
                 },
                 {
                   name: 'Puff Puff',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/puffpuff.jpg',
                 },
                 {
                   name: 'Samosa Springroll Combo',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/samosa-springroll-combo.jpg',
                 },
 
                 {
                   name: 'Spicy Turkey',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/turkey.jpg',
                 },
                 {
                   name: 'Chicken and Chips',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/Chicken-and-chips1.jpg',
                 },
                 {
                   name: 'Zobo Drink',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/zobo-drink-2.jpg',
                 },
               ].map((pastry, index) => (
@@ -161,22 +163,22 @@ export default function LandingPage() {
               {[
                 {
                   name: 'Platter 1',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/platter2.jpg',
                 },
                 {
                   name: 'Platter 2',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/platter.jpg',
                 },
                 {
                   name: 'Platter 3',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/platter3.jpg',
                 },
                 {
                   name: 'Platter 4',
-                  price: '$2.25',
+                  price: '',
                   image: '/images/platter4.jpg',
                 },
               ].map((pastry, index) => (
@@ -229,7 +231,7 @@ export default function LandingPage() {
         </section>
 
         <section className="py-16 bg-[#F9E4D4]">
-          <div className="container mx-auto px-4 text-center">
+          <div className="container mx-auto px-4 text-center" id="about">
             <h2 className="text-3xl font-bold text-[#8C3503] mb-8">
               Why Choose Us?
             </h2>
@@ -268,16 +270,15 @@ export default function LandingPage() {
       </main>
 
       <footer className="bg-[#8C3503] text-white py-8">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4" id="contact">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <h4 className="text-lg font-semibold mb-2">Frannie's Delights</h4>
-              {/* <p>123 Bakery Street, Pastry Town</p> */}
+              <p>Awka, Anambra State Nigeria</p>
             </div>
             <div className="mb-4 md:mb-0">
               <h4 className="text-lg font-semibold mb-2">Hours</h4>
-              <p>Mon-Sat: 7am - 7pm</p>
-              <p>Sun: 8am - 5pm</p>
+              <p>Mon-Sat: 9am - 6pm</p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Contact</h4>
