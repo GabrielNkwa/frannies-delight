@@ -130,7 +130,7 @@ export default function LandingPage() {
                 {
                   name: 'Milky Puffs',
                   price: '',
-                  image: '/images/milky-puffs2.jpg',
+                  image: '/images/Milkypuffs2.jpg',
                 },
                 {
                   name: 'Spicy Chicken',
@@ -140,7 +140,7 @@ export default function LandingPage() {
                 {
                   name: 'Spicy meat',
                   price: '',
-                  image: '/images/Spicy-meat.jpg',
+                  image: '/images/spicymeat.jpg',
                 },
                 {
                   name: 'Puff Puff',
@@ -156,7 +156,7 @@ export default function LandingPage() {
                 {
                   name: 'Spicy Turkey',
                   price: '',
-                  image: '/images/turkey.jpg',
+                  image: '/images/Turkey.jpg',
                 },
                 {
                   name: 'Chicken and Chips',
@@ -166,7 +166,7 @@ export default function LandingPage() {
                 {
                   name: 'Zobo Drink',
                   price: '',
-                  image: '/images/zobo-drink-2.jpg',
+                  image: '/images/zobodrink2.jpg',
                 },
               ].map((pastry, index) => (
                 <Card key={index} className="overflow-hidden">
@@ -199,17 +199,17 @@ export default function LandingPage() {
                 {
                   name: 'Platter 1',
                   price: '',
-                  image: '/images/platter2.jpg',
+                  image: '/images/Platter2.jpg',
                 },
                 {
                   name: 'Platter 2',
                   price: '',
-                  image: '/images/platter.jpg',
+                  image: '/images/Platter.jpg',
                 },
                 {
                   name: 'Platter 3',
                   price: '',
-                  image: '/images/platter3.jpg',
+                  image: '/images/Platter3.jpg',
                 },
                 {
                   name: 'Platter 4',
@@ -245,7 +245,7 @@ export default function LandingPage() {
             <div className=" border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
               {[
                 {
-                  image: '/images/Valentines.jpg',
+                  image: '/images/valentines.jpg',
                 },
               ].map((pastry, index) => (
                 <Card key={index} className="overflow-hidden">
